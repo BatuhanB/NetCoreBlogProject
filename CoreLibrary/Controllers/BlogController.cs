@@ -14,6 +14,7 @@ namespace CoreLibrary.Controllers
         }
         public IActionResult BlogReadAll(int id)
         {
+            ViewBag.Id = id;    
             var values = bm.GetBlogListByID(id);
             return View(values);
         }
