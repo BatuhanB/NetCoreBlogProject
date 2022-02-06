@@ -159,3 +159,8 @@ C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Comment\PartialAddComment.cshtml.g.cs
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Shared\Components\CommentListByBlog\Default.cshtml.g.cs
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryList\Default.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Register\Index.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\CoreLibrary.MvcApplicationPartsAssemblyInfo.cs
