@@ -164,3 +164,5 @@ C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValid
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\CoreLibrary.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterLastBlog\Default.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\NewsLetter\SubscribeMail.cshtml.g.cs

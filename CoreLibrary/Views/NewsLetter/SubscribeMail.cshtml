@@ -1,0 +1,31 @@
+﻿<script src="~/web~/web/js/jquery-2.2.3.min.js"></script>
+<div class="tech-btm">
+	<h4>Bültenimize Abone Olun</h4>
+	<p>Teknoloji, yazılım ve diğer bloglar...</p>
+	<form id="subscribeMail" action="/NewsLetter/SubscribeMail/" method="post">
+		<input type="email" placeholder="Email" required="" name="Mail">
+		<input type="submit" value="Abone Ol">
+	</form>
+</div>
+@*
+<script type="text/javascript">
+    $(document).ready(function(){
+        var data = $("#subscribeMail").serialize();
+		$.ajax({
+			type: 'POST',
+            url: '/NewsLetter/SubscribeMail/',
+            cache:false,
+            contentType: 'application/x-www-form-urlencoded; charset=UTF-8', // when we use .serialize() this generates the data in query string format. this needs the default contentType (default content type is: contentType: 'application/x-www-form-urlencoded; charset=UTF-8') so it is optional, you can remove it
+            data: data,
+            success: function (result) {
+                alert('Veriler Başarılı Bir Şekilde Eklendi ');
+                console.log(result);
+            },
+            error: function () {
+                alert('Veriler Eklenemedi');
+                console.log('Failed ');
+            }
+		})
+	})
+</script>
+*@
