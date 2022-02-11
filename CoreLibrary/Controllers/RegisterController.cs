@@ -25,7 +25,7 @@ namespace CoreLibrary.Controllers
                 p.WriterStatus = true;
                 p.WriterAbout = "Deneme test";
                 writerManager.AddWriter(p);
-                return RedirectToAction("Index", "Blog");
+                return RedirectToAction("Index", "Register");
             }
             else
             {

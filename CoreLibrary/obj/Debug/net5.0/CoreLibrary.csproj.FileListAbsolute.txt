@@ -166,3 +166,7 @@ C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\bin\Debug\net5.0\FluentValid
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\CoreLibrary.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterLastBlog\Default.cshtml.g.cs
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\NewsLetter\SubscribeMail.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\ErrorPage\Error1.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\About\Index.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\About\SocialMediaAbout.cshtml.g.cs
