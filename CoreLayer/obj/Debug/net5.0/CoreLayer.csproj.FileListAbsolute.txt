@@ -9,3 +9,4 @@ C:\Users\balib\source\repos\CoreLibrary\CoreLayer\obj\Debug\net5.0\CoreLayer.csp
 C:\Users\balib\source\repos\CoreLibrary\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 C:\Users\balib\source\repos\CoreLibrary\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 C:\Users\balib\source\repos\CoreLibrary\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+C:\Users\balib\source\repos\CoreLibrary\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
