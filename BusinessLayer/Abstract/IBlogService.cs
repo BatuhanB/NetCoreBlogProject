@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,5 +17,6 @@ namespace BusinessLayer.Abstract
         Blog GetBlogByID(int id);
         List<Blog> GetAllListBlog();
         List<Blog> GetAllListBlogByWriter(int id);
+        //List<BlogDto> GetBlogWithWriter(int id);
     }
 }

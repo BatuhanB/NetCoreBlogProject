@@ -4,11 +4,14 @@ using EntityLayer.Concrete;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EntityLayer.Dtos;
+using System.Linq.Expressions;
 
 namespace DataAccessLayer.Abstract
 {
-    public  interface IBlogDal:IGenericDal<Blog>
+    public interface IBlogDal : IGenericDal<Blog>
     {
         List<Blog> GetListWithCategory();
+        //List<BlogDto> GetBlogWithWriter(Expression<Func<Blog, bool>> filter);
     }
 }

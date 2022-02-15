@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Abstract;
 using DataAccessLayer.Abstract;
 using EntityLayer.Concrete;
+using EntityLayer.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,7 +36,7 @@ namespace BusinessLayer.Concrete
 
         public List<Blog> GetAllListBlogByWriter(int id)
         {
-            return _blogDal.GetListAll(x => x.WriterID==id);
+            return _blogDal.GetListAll(x => x.WriterID == id);
         }
 
         public Blog GetBlogByID(int id)
@@ -47,9 +48,16 @@ namespace BusinessLayer.Concrete
             return _blogDal.GetListAll(x => x.BlogID == id);
         }
 
+        //public List<BlogDto> GetBlogWithWriter(int id)
+        //{
+        //    var deneme = _blogDal.GetBlogWithWriter(x => x.WriterID == id);
+        //    return deneme;
+            
+        //}
+
         public List<Blog> GetListBlog()
         {
-            return _blogDal.GetAll();   
+            return _blogDal.GetAll();
         }
 
         public void UpdateBlog(Blog blog)
