@@ -27,7 +27,6 @@ namespace CoreLibrary
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddSession();
 
             //Sistemimizde Authorization islemi yapabilmek icin kullanacagimiz methodumuz.
             services.AddMvc(config =>
@@ -72,7 +71,7 @@ namespace CoreLibrary
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseSession();
+
 
             app.UseRouting();
 
