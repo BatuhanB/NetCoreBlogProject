@@ -9,7 +9,7 @@ namespace CoreLibrary.Controllers
         AboutManager aboutManager = new AboutManager(new EfAboutRepository());
         public IActionResult Index()
         {
-            var values = aboutManager.GetAllList();
+            var values = aboutManager.GetListT();
             return View(values);
         }
         public PartialViewResult SocialMediaAbout()

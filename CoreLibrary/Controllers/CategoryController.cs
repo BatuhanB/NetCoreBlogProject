@@ -9,7 +9,7 @@ namespace CoreLibrary.Controllers
         CategoryManager categoryManager = new CategoryManager(new EfCategoryRepository());
         public IActionResult Index()
         {
-            var values = categoryManager.GetListCategory();
+            var values = categoryManager.GetListT();
             return View(values);
         }
     }

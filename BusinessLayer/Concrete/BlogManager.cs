@@ -19,16 +19,6 @@ namespace BusinessLayer.Concrete
             _blogDal = blogDal;
         }
 
-        public void AddBlog(Blog blog)
-        {
-            _blogDal.Insert(blog);
-        }
-
-        public void DeleteBlog(Blog blog)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Blog> GetAllListBlog()
         {
             return _blogDal.GetListWithCategory();
@@ -39,25 +29,9 @@ namespace BusinessLayer.Concrete
             return _blogDal.GetListAll(x => x.WriterID == id);
         }
 
-        public Blog GetBlogByID(int id)
-        {
-            throw new NotImplementedException();
-        }
         public List<Blog> GetBlogListByID(int id)
         {
             return _blogDal.GetListAll(x => x.BlogID == id);
-        }
-
-        //public List<BlogDto> GetBlogWithWriter(int id)
-        //{
-        //    var deneme = _blogDal.GetBlogWithWriter(x => x.WriterID == id);
-        //    return deneme;
-            
-        //}
-
-        public List<Blog> GetListBlog()
-        {
-            return _blogDal.GetAll();
         }
 
         public List<Blog> GetLast3Blog()
@@ -65,9 +39,36 @@ namespace BusinessLayer.Concrete
             return _blogDal.GetAll().Take(3).ToList();
         }
 
-        public void UpdateBlog(Blog blog)
+        public void TAdd(Blog t)
+        {
+            _blogDal.Insert(t);
+        }
+
+        public void TDelete(Blog t)
         {
             throw new NotImplementedException();
         }
+
+        public void TUpdate(Blog t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Blog> GetListT()
+        {
+            return _blogDal.GetAll();
+        }
+
+        public Blog GetTByID(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public List<BlogDto> GetBlogWithWriter(int id)
+        //{
+        //    var deneme = _blogDal.GetBlogWithWriter(x => x.WriterID == id);
+        //    return deneme;
+
+        //}
     }
 }

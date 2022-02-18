@@ -181,3 +181,5 @@ C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Writer\WriterFooterPartial.cshtml.g.cs
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterMessageNotification\Default.cshtml.g.cs
 C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Shared\Components\WriterNotification\Default.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Blog\BlogListByWriter.cshtml.g.cs
+C:\Users\balib\source\repos\CoreLibrary\CoreLibrary\obj\Debug\net5.0\Razor\Views\Blog\AddBlog.cshtml.g.cs

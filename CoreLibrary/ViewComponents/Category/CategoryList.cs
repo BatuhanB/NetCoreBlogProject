@@ -9,7 +9,7 @@ namespace CoreLibrary.ViewComponents.Category
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
         public IViewComponentResult Invoke()
         {
-            var values = cm.GetListCategory();
+            var values = cm.GetListT();
             return View(values);
         }
     }
