@@ -4,6 +4,10 @@
 	ViewData["Title"] = "BlogListByWriter";
 	Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
 <div class="container-fluid">
 	<div class="col-lg-12 grid-margin stretch-card">
 		<div class="card">
@@ -26,9 +30,17 @@
 							<th>@item.BlogID</th>
 							<td>@item.BlogTitle</td>
 							<td>@(((DateTime)item.BlogCreateDate).ToString("dd-MMM-yyyy"))</td>
-							<td>@item.CategoryID</td>
-							<td>@item.BlogStatus</td>
-							<td><a href="#" class="btn btn-danger" style="color:black">Sil</a></td>
+							<td>@item.Category.CategoryName</td>
+							@if (item.BlogStatus)
+							{
+								<td><span class="badge badge-success">Aktif</span></td>
+							}
+							else
+							{
+								<td><span class="badge badge-danger">Pasif</span></td>
+							}
+
+							<td><a href="/Blog/DeleteBlog/@item.BlogID" class="btn btn-danger" id="ask" style="color:black">Sil</a></td>
 							<td><a href="#" class="btn btn-warning" style="color:black">Düzenle</a></td>
 						</tr>
 					}
@@ -39,3 +51,19 @@
 	</div>
 	<a href="/Blog/AddBlog/" class="btn btn-primary" style="margin-left:20px">Yeni Blog Ekle</a>
 </div>
+<script>
+		$('#ask').click(function(){
+				swal({
+			  title: "Are you sure?",
+			  text: "You will not be able to recover this imaginary file!",
+			  type: "warning",
+			  showCancelButton: true,
+			  confirmButtonColor: "#DD6B55",
+			  confirmButtonText: "Yes, delete it!",
+			  closeOnConfirm: false
+			},
+			function(){
+			  swal("Deleted!", "Your imaginary file has been deleted.", "success");
+			});
+		)};
+</script>

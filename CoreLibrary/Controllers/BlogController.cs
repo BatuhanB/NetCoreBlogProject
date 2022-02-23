@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation;
@@ -32,8 +33,8 @@ namespace CoreLibrary.Controllers
         [AllowAnonymous]
         public IActionResult BlogListByWriter()
         {
-           var values = bm.GetAllListBlogByWriter(1);
-            return View(values);
+           var values = bm.GetListWithCategoryByWriterBm(1);
+           return View(values);
         }
         [HttpGet]
         public IActionResult AddBlog()
@@ -68,6 +69,13 @@ namespace CoreLibrary.Controllers
                 }
             }
             return View();
+        }
+        public IActionResult DeleteBlog(int id)
+        {
+            var blog = bm.GetTByID(id);
+            //bm.TDelete(blog);
+            blog.BlogStatus = false;
+            return RedirectToAction("BlogListByWriter");
         }
     }
 }
