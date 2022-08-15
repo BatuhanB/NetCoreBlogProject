@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fI02wtlMq3HTi+XFaKQ+o6FtlQCsnarUmPTEild0sI1/MhLeFrBZYfm9e4IREVs8y4FdMqCTuO/U1BnEX91n9A==",
+  "dgSpecHash": "Up1svfWrBABKPtIrEGJCAQEcFJnmy6Z5bmHKo1UftNLFstxgOErUNhg6IBeQvu/HR8M267LcE/rrHOqMbIzm6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLibrary\\CoreLibrary.csproj",
+  "projectFilePath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLibrary\\CoreLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\balib\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\balib\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",

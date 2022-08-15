@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZRvMazHb/hxkwvQnhr/TcFZs08VqefYfzLroBjo1KLlBCrLUcLjV2jO0gFDJkolVPoVPZZrPYdTgtzQgVv+MeQ==",
+  "dgSpecHash": "fygDK8GYeKuhDnvN/LaRMLzyr4M9aWddp42UPD2apfARZfvIpxtdwTbnJgMCoVxLDCWMakRmKMj/MuDYgbginA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\balib\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\balib\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

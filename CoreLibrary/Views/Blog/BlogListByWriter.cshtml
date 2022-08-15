@@ -29,7 +29,7 @@
 						<tr>
 							<th>@item.BlogID</th>
 							<td>@item.BlogTitle</td>
-							<td>@(((DateTime)item.BlogCreateDate).ToString("dd-MMM-yyyy"))</td>
+							<td>@(((DateTime)item.BlogCreateDate).ToString("dd/MMM/yyyy"))</td>
 							<td>@item.Category.CategoryName</td>
 							@if (item.BlogStatus)
 							{

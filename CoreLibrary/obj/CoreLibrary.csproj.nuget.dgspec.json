@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLibrary\\CoreLibrary.csproj": {}
+    "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLibrary\\CoreLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\balib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\balib\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -62,7 +62,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLibrary\\CoreLibrary.csproj": {
+    "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLibrary\\CoreLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLibrary\\CoreLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLibrary\\CoreLibrary.csproj",
         "projectName": "CoreLibrary",
-        "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLibrary\\CoreLibrary.csproj",
+        "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLibrary\\CoreLibrary.csproj",
         "packagesPath": "C:\\Users\\balib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLibrary\\obj\\",
+        "outputPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\balib\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,11 +100,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -157,7 +158,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -169,18 +171,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\balib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\balib\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -197,8 +199,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -240,7 +242,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -249,18 +252,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\balib\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\balib\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -294,7 +297,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -303,7 +307,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

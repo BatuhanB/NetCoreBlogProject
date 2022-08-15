@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZc6IsCKgWBm5o9uAoyzrFTgS7JMVbMSDzCmjMMCEIeBxNR+YVeIL3z8CwwZ/z3GJZCAjGmYG6JMht1IZh8kTQ==",
+  "dgSpecHash": "WRdfY9LkAQzb6BL2L+/DF/w68xvrbGwHmrH7llVCG8QDjBhqLBW6f8Ktd8f/rkaUpwYoyUafYk+0n9QIFlaKlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLayer\\CoreLayer.csproj",
+  "projectFilePath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

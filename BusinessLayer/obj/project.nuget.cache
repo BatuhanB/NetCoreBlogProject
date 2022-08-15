@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "90lKeH+QjNOtBGvEiEUW9RkrW7TdpNMbqstz8Q8wAdPriSgUvJhhJUY+XC+mH/eGc/VFlr8ms1RBafarLpZE1Q==",
+  "dgSpecHash": "covCppxE6622J/I0KSnq3k357+C+nRjNpNEO2ZGmM0q9pBtssCDoKk+njobfac/wFQ9ruEVsfpCmn+RLXzlQ4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\balib\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\balib\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",

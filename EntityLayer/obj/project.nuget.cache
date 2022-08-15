@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7zW/Dekjj37TFMa5Jr4ZwEjji/kjuKmfnH4bdrqLEaZuxJAMW9Tgdk2ZHPc2vLO6itzBQ3SLtlI2DJyA6FbfIQ==",
+  "dgSpecHash": "sYtdzB5jydEFJY/XYhiDxhYbfwVoVZ5/KX2N0qU1PB/b0Nfe0lJl/+OJWefCCvldxCZJv2DYrG6LJvtJoz4/aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\EntityLayer\\EntityLayer.csproj",
+  "projectFilePath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\EntityLayer\\EntityLayer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLayer\\CoreLayer.csproj",
+      "projectUniqueName": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLayer\\CoreLayer.csproj",
       "projectName": "CoreLayer",
-      "projectPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLayer\\CoreLayer.csproj",
+      "projectPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\balib\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\balib\\source\\repos\\CoreLibrary\\CoreLayer\\obj\\",
+      "outputPath": "C:\\Users\\balib\\source\\repos\\NetCoreBlogProject\\NetCoreBlogProject\\CoreLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\balib\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

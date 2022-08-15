@@ -81,8 +81,9 @@ namespace CoreLibrary.Controllers
         public IActionResult DeleteBlog(int id)
         {
             var blog = bm.GetTByID(id);
-            bm.TDelete(blog);
-            //blog.BlogStatus = false;
+            //bm.TDelete(blog);
+            blog.BlogStatus = false;
+            bm.TUpdate(blog);
             return RedirectToAction("BlogListByWriter");
         }
         [HttpGet]
